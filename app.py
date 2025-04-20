@@ -15,7 +15,7 @@ with open('kmeans_model.pkl','rb') as f:
     loaded_model = pickle.load(f)
 
 # Set title 
-st.title("K-Means Clustering Visualizer")
+st.title("K-Means Clustering Visualizer by Chananchida Rinrith")
 
 # Set the page config
 st.set_page_config(page_title="K-Means Clutering App", layout="centered")
